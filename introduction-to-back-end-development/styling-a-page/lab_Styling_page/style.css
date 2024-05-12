@@ -27,12 +27,12 @@ h2 {
 
 /* Set the text color and font size for spans within h2 elements */
 h2 span {
-    color: #FA9F42 !important;  /* Ensure color applies, added !important to increase specificity */
+    color: #FA9F42;
     font-size: 0.75em;
 }
 
 /* Set padding and font size for the element with the id 'copyright' */
 #copyright {
     padding-top: 12px;
-    font-size: 0.75em !important;  /* Ensure font size applies, added !important to increase specificity */
+    font-size: 0.75em;
 }

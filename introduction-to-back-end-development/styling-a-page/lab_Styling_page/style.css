@@ -1,0 +1,38 @@
+/* Set the background color of the entire page */
+body {
+    background-color: #E0E0E2;
+}
+
+/* Set the text color for h1 elements */
+h1 {
+    color: #721817;
+}
+
+/* Set the text color for h2 elements */
+h2 {
+    color: #721817;
+}
+
+/* Center-align text for elements with the 'center-text' class */
+.center-text {
+    text-align: center;
+}
+
+/* Style the element with the id 'logo' to center it horizontally */
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Set the text color and font size for spans within h2 elements */
+h2 span {
+    color: #FA9F42 !important;  /* Ensure color applies, added !important to increase specificity */
+    font-size: 0.75em;
+}
+
+/* Set padding and font size for the element with the id 'copyright' */
+#copyright {
+    padding-top: 12px;
+    font-size: 0.75em !important;  /* Ensure font size applies, added !important to increase specificity */
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#photo {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+h1, h2 {
+    color: navy;
+}
+
+#header p, #about p {
+    color: gray;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+#links a {
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}

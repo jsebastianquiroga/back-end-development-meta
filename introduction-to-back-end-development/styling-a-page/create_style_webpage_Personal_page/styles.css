@@ -1,52 +1,46 @@
-body {
+body, html {
+    height: 100%;
+    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5; /* A light grey background for a subtle tech feel */
 }
 
-#photo {
+.sidebar {
+    background-color: #87CEEB;
+    color: white;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+img {
+    width: 100px; /* Fixed width */
+    border: 3px solid white;
+    margin: 10px auto; /* Center image in the sidebar */
+    display: block;
+}
+
+.sidebar h3, .main-content h3 {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: block;
     width: 100%;
-    max-width: 250px; /* Limit the size of the image */
-    border: 3px solid #007bff; /* Bootstrap primary color for the border */
-}
-
-h1, h2 {
-    color: #343a40; /* Bootstrap dark gray */
-}
-
-.bg-light {
-    background-color: #e9ecef !important; /* Bootstrap light background for contrast */
-    color: #495057; /* A darker grey text color for readability */
-}
-
-div.col-md-6, div.col-md-12 {
-    margin-bottom: 20px;
-}
-
-.btn-dark, .btn-primary {
-    margin: 5px;
-}
-
-/* Responsive adjustments provided by Bootstrap */
-@media (max-width: 768px) {
-    .col-md-4, .col-md-8 {
-        text-align: center;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-}
-@media (max-width: 768px) {
-    .col-md-4, .col-md-8 {
-        text-align: center;
-    }
-    #photo {
-        margin-bottom: 20px; /* Provides space between the photo and text on smaller screens */
-    }
+    margin-bottom: 10px;
 }
